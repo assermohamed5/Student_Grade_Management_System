@@ -55,26 +55,12 @@ public class Main {
 
 
      public static void main(String[] args) {
-//        5 students -> grades in 3 subjects
-//        user enters 5 names and their grades
-//        display
-//        Step 2 - Main Menu
-//        Display the below menu:
-//        1. Show All Students names.
-//        2. Show all Students grades in each subject.
-//        3. Search Student by name.
-//        4. Count Passed Students
-//        0. Exit
-//        Grades must be between 0 and 100. If an invalid grade is entered, print 'Invalid grade.' and
-//        ask again.
+
 
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please Enter The Student Names And Their Grades ->");
-//        String firstStudent=scanner.nextLine();
-//        int gradeOne=scanner.nextInt();
-//        int gradeTwo=scanner.nextInt();
-//        int gradeThree=scanner.nextInt();
+
          String [] student= new String[5];
         int [][] grade = new int [5][3];
 
@@ -95,35 +81,10 @@ public class Main {
 
                     }
 
-
-
             }
 
-
-            //System.out.println(calcAvg(grade[5][3]));
         }
-//         System.out.println("The max of grades for subject  number "+1+" is: "+maxGrade(grade,0));
-//         System.out.println("The max of grades for subject  number "+1+" is: "+maxGrade(grade,1));
-//         System.out.println("The max of grades for subject  number "+1+" is: "+maxGrade(grade,2));
-//
-//         System.out.println("The average of grades for subject number "+1+" is: "+calcAvgOneSubject(grade,0));
-//         System.out.println("The average of grades for subject number "+2+" is: "+calcAvgOneSubject(grade,1));
-//         System.out.println("The average of grades for subject number "+3+" is: "+calcAvgOneSubject(grade,2));
-//
-//         System.out.println("The average of grade for subject number " +1+ " is: "+calcAvgAllSubjects(grade,0));
-//         System.out.println("The average of grade for subject number " +1+ " is: "+calcAvgAllSubjects(grade,1));
-//         System.out.println("The average of grade for subject number " +1+ " is: "+calcAvgAllSubjects(grade,2));
-//         System.out.println("The average of grade for subject number " +1+ " is: "+calcAvgAllSubjects(grade,3));
-//         System.out.println("The average of grade for subject number " +1+ " is: "+calcAvgAllSubjects(grade,4));
 
-
-//         double studentOne=calcAvgAllSubjects(grade,0);
-//         double studentTwo=calcAvgAllSubjects(grade,1);
-//         double studentThree=calcAvgAllSubjects(grade,2);
-//         double student4=calcAvgAllSubjects(grade,3);
-//         double student5=calcAvgAllSubjects(grade,4);
-
-        //menu
         int option;
         do {
             System.out.println("====================");
